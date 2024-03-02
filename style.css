@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(85, 78, 78);
+}
+::placeholder{
+   color: rgb(245, 231, 231);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    font-size: 25px;
+}
+#heading{
+    font-size: 30PX ;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.959);
+}
+#inp8{
+    color: rgb(245, 231, 231);
+    padding-left: 50px;
+    width: 450px;
+}
+#mainINS{
+    display: flex;
+    justify-content: center;
+}
+
+#instruction{
+
+    padding-top: 10px;
+    padding-left: 50px;
+    height: 150px;
+    width: 750px;
+    background-color: rgba(0, 255, 255, 0.308);
+    margin-top: 50px;
+}
+#last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    border: 5px solid black;
+    margin: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 500px;
+    background-color: rgba(255, 68, 0, 0.753);
+}
+button:hover{
+    background-color: rgba(255, 255, 0, 0.733);
+    border: solid rgb(255, 140, 0);
+    color:black;        
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 25px;
+    color:solid navy;
+}
+select:hover{
+    background-image: linear-gradient(to left,rgba(0, 0, 255, 0.384),rgb(0, 180, 240) ,rgba(38, 0, 255, 0.671));    
+}
+select{
+    color: rgb(245, 231, 231);
+    background-color: rgb(165, 134, 134);
+   padding-left: 50px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 39px;
+    width: 505px;
+    font-size: 25PX;
+    font-family: Arial,Helvetica, sans-serif;
+    
+}
+#mainForm{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+label:hover{
+    border:5px solid grey ;
+    background-color: rgb(255, 255, 0);
+    color:  rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+label{
+    padding-left: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 0, 0.753);
+    color:  rgb(0, 0, 0);
+    margin: 8px;
+    font-size: 31px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input:hover{
+    background-image: linear-gradient(to left,rgba(0, 0, 255, 0.384),rgb(0, 180, 240) ,rgba(38, 0, 255, 0.671));
+} 
+input{
+    background-color: rgb(165, 134, 134);
+    padding-left: 60px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 35px;
+    width: 500px;
+    font-size: 25PX;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#input{
+    border-radius: 40px;
+    padding: 15px;
+    margin-left: 20px;
+    background-color: rgb(0, 0, 0, 0.671);
+    display: flex;
+    flex-direction: column;
+}
+
+#questions{
+
+    border-radius: 40px;
+    padding: 15px;
+    width: 400px;
+    background-color:rgba(0, 0, 0, 0.671);
+    display: flex;
+    flex-direction: column;
+}
+#inp14 { 
+    color: rgb(245, 231, 231);
+    background-color: rgb(165, 134, 134);  
+    text-decoration: none;
+    padding: 0;
+    height: 35px;
+    width: 450px;
+}

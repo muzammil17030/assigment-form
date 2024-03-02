@@ -1,0 +1,121 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="col-md-5" id="heading">
+        <h1 style="width: 100%;">Registration Form</h1>
+    </div>
+
+
+
+    <form action="">
+        <div id="mainForm">
+            <!-- questions  -->
+            <div id="questions" class="col-md-5">
+                <label for="lab2">Full-Name:</label>
+                <label for="lab1">Father's Name:</label>
+                <label for="lab3">Email:</label>
+                <label for="lab4">Phone:</label>
+                <label for="lab5">Select City:</label>
+                <label for="lab6">CNIC:</label>
+                <label for="lab7">Father's CNIC:</label>
+                <label for="lab8">Date Of Birth:</label>
+                <label for="lab9">Select Gender:</label>
+                <label for="lab10">Address:</label>
+                <label for="lab11">Select Course :</label>
+                <label for="lab12">Last Qualification:</label>
+                <label for="lab13">Do you Have a Laptop?</label>
+                <label for="lab14">Add Picture:</label>
+
+            </div>
+
+            <!-- input  -->
+            <div id="input" class="col-md-5">
+                <input placeholder="Enter Your Full-Name" type="text" name="" id="inp1">
+                <input placeholder="Father's Name" type="text" name="" id="inp2">
+                <input placeholder="Email" type="email" name="" id="inp3">
+                <input placeholder="Number" maxlength="11" type="number" name="" id="inp4">
+                <!-- <input placeholder="Select City" type="text" name="" id="inp5"> -->
+                <select name="" id="inp5">
+                    <option value="">Enter your city</option>
+                    <option value="karachi">karachi</option>
+                    <option value="quetta">Quetta</option>
+                    <option value="lahore">lahore</option>
+                    <option value="peshawar">peshawar</option>
+                    <option value="islamabad">islamabad</option>
+                </select>
+                <input placeholder="CNIC" type="number" name="" id="inp6">
+                <input placeholder="Father's CNIC(Optional)" type="number" name="" id="inp7">
+                <input placeholder="Date Of Birth" type="date" name="" id="inp8">
+                <!-- <input placeholder="Select Gender" type="text" name="" id="inp9"> -->
+                <select name="" id="inp9">
+                    <option value="">Select your Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">FeMale</option>
+                    <option value="other">Other</option>
+                </select>
+
+
+                <input placeholder="Address" type="text" name="" id="inp10">
+                <!-- <input placeholder="Select Course Or Event" type="text" name="" id="inp11"> -->
+                <select name="" id="inp11">
+                    <option value="">Enter Your Course</option>
+                    <option value="Web and APP Development">Web and APP Development</option>
+                    <option value="AI Chatboot">AI Chatboot</option>
+                    <option value="CIT">CIT</option>
+                    <option value="DIT">DIT</option>
+                    <option value="Daraz">Daraz</option>
+                    <option value="Amazon">Amazon</option>
+                </select>
+                <!-- <input placeholder="Last Qualification" type="text" name="" id="inp12"> -->
+                <select name="" id="inp12">
+                    <option value="">last Qualification</option>
+                    <option value="under matric">under matric</option>
+                    <option value="matric">matric</option>
+                    <option value="inter">Inter</option>
+                    <option value="graduation">Graduation</option>
+                    <option value="master">Master</option>
+                </select>
+
+                <!-- <input placeholder="Do You Have a Laptop?" type="text" name="" id="inp13"> -->
+                <select name="" id="inp13">
+                    <option value="">Do You Have A Laptop?</option>
+                    <option value="yes">yes</option>
+                    <option value="no">No</option>
+
+                </select>
+
+                <input type="file" id="inp14" value="">
+            </div>
+
+
+        </div>
+
+<div id="mainINS">
+        <div class="col-md-5" id="instruction">
+            <li>you have to fill the form with your orignal info</li>
+            <li>you must have to attach your picture</li>
+            <li>please fill the full form or your form will not be accept</li>
+            <li>it is mendiatery for female students to wear Hijab in the class</li>
+        </div>
+    </div>
+     
+        <div id="last" class="col-md-5">
+             <button onclick="add()">Submit</button>
+        </div>
+
+
+
+    </form>
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
